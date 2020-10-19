@@ -40,7 +40,7 @@ async function onMessage(message)
 						});
 					}
 				break;
-				case "msgall":
+				case "say":
 					if(message.member.hasPermission(Discord.Permissions.ALL))
 					{
 						message.reply('Copy that!');
